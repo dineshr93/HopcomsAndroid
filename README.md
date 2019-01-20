@@ -1,7 +1,7 @@
 # HopcomsAndroid
 Android app for checking Hopcoms prices list
 
-[Java project]{https://github.com/dineshr93/Hopcoms} has been ported to Android App. 
+[Java project](https://github.com/dineshr93/Hopcoms) has been ported to Android App. 
 
 [Android apk](https://github.com/dineshr93/HopcomsAndroid/blob/master/release/app-release.apk).
 
