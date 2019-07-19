@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "333817750535",
+    "firebase_url": "https://hopcomssorted.firebaseio.com",
+    "project_id": "hopcomssorted",
+    "storage_bucket": "hopcomssorted.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333817750535:android:cc3d9fdfb34f961a",
+        "android_client_info": {
+          "package_name": "com.din.hopcomssorted"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333817750535-jbrmg73fk49l47jjgli4fdcknt8266lm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.din.hopcomssorted",
+            "certificate_hash": "3a69b1a4e262506b3fb6310a321388335c354ee3"
+          }
+        },
+        {
+          "client_id": "333817750535-odl2fpoba9hp3v0upo2kkd2ostb9s4jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtLIfAxZkw0Xpp2Nw2YtxtZy_Cd9fPzZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333817750535-odl2fpoba9hp3v0upo2kkd2ostb9s4jt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

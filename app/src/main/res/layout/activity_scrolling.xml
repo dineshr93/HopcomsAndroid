@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/parent_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:fillViewport="true"
+        android:scrollbarSize="40dip">
+
+        <LinearLayout
+            android:id="@+id/rel_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.din.hopcomssorted.ScrollingActivity">
+            <ProgressBar
+                android:id="@+id/progressbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:max="100"
+                android:backgroundTint="@color/light_green"
+                android:layout_below="@+id/framelauout"
+                android:indeterminateTint="#1a09d6"
+                android:layout_marginTop="-7dp"/>
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:text="-- Click on arrow below to sort on Name or Price --"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <de.codecrafters.tableview.SortableTableView xmlns:table="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/tableView"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:divider="@color/colorPrimaryDark"
+                android:dividerHeight="1dip"
+                android:scrollbarSize="20dip"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/tv"
+                table:tableView_columnCount="2" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tableView"
+                android:background="@color/colorPrimary"
+                android:text="-- Drag here to scroll further --"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/tvx1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_below="@+id/tv1"
+                android:text="-- Click on arrow below to sort on Name or Price --"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <de.codecrafters.tableview.SortableTableView xmlns:table="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/tableView2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/tvx1"
+                android:divider="@color/colorPrimaryDark"
+                android:dividerHeight="1dip"
+                android:scrollbarSize="20dip"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                table:tableView_columnCount="2" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tableView2"
+                android:background="@color/colorPrimary"
+                android:text="-- Drag here to scroll further --"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tvx2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_below="@+id/tv2"
+                android:text="-- Click on arrow below to sort on Name or Price --"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <de.codecrafters.tableview.SortableTableView xmlns:table="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/tableView3"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_below="@+id/tvx2"
+                android:divider="@color/colorPrimaryDark"
+                android:dividerHeight="1dip"
+                android:scrollbarSize="20dip"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                table:tableView_columnCount="2" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tableView3"
+                android:background="@color/colorPrimary"
+                android:text="-- Drag here to scroll further --"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tvx3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_below="@+id/tv3"
+                android:text="-- Click on arrow below to sort on Name or Price --"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <de.codecrafters.tableview.SortableTableView xmlns:table="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/tableView4"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_below="@+id/tvx3"
+                android:divider="@color/colorPrimaryDark"
+                android:dividerHeight="1dip"
+                android:scrollbarSize="20dip"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                table:tableView_columnCount="2" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tableView4"
+                android:background="@color/colorPrimary"
+                android:text="!! END !!"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

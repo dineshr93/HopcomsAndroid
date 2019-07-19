@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Hopcoms Sorted</string>
-
     <string name="action_settings">Error/Feedback Report</string>
     <string name="shortcutname">Hopcoms Sort</string>
 </resources>
